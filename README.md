@@ -10,9 +10,9 @@ It demonstrates the use of inheritance, polymorphism, abstraction, and encapsula
 
 ## Digital UML Drawing
 
-![UMlfinal](./Assets/UMlfinal.PNG)
-![UMl01](./Assets/UMl01.PNG)
-![UMl02](./Assets/UMl02.PNG)
+![UMlfinal](./Assets/UMLfinal.PNG)
+![UMl01](./Assets/UML01.PNG)
+![UMl02](./Assets/UML02.PNG)
 
 ---
 
