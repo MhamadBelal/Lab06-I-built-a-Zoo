@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\bin\Debug\net7.0\Lab06ConsoleProgram.exe
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\bin\Debug\net7.0\Lab06ConsoleProgram.deps.json
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\bin\Debug\net7.0\Lab06ConsoleProgram.runtimeconfig.json
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\bin\Debug\net7.0\Lab06ConsoleProgram.dll
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\bin\Debug\net7.0\Lab06ConsoleProgram.pdb
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\obj\Debug\net7.0\Lab06ConsoleProgram.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\obj\Debug\net7.0\Lab06ConsoleProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\obj\Debug\net7.0\Lab06ConsoleProgram.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\obj\Debug\net7.0\Lab06ConsoleProgram.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\obj\Debug\net7.0\Lab06ConsoleProgram.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\obj\Debug\net7.0\Lab06ConsoleProgram.dll
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\obj\Debug\net7.0\refint\Lab06ConsoleProgram.dll
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\obj\Debug\net7.0\Lab06ConsoleProgram.pdb
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\obj\Debug\net7.0\Lab06ConsoleProgram.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\MhamadBelal\Lab06-I-built-a-Zoo\Lab06ConsoleProgram\obj\Debug\net7.0\ref\Lab06ConsoleProgram.dll
