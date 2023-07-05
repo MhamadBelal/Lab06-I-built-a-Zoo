@@ -165,5 +165,81 @@ namespace Lab04UnitTest
         }
 
 
+
+
+
+        // Test that the classes that implement the interface actually implement it
+        [Fact]
+        public void LionImplementsICarnivore()
+        {
+            // Arrange
+            Lion lion = new Lion("Simba", 15, "Meat", "Zoo");
+
+            // Act - Assert
+            Assert.IsAssignableFrom<ICarnivore>(lion);
+        }
+
+        [Fact]
+        public void LionImplementsIHerbivore()
+        {
+            // Arrange
+            Lion lion = new Lion("Simba", 15, "Meat", "Zoo");
+
+            // Act - Assert
+            Assert.IsAssignableFrom<IHerbivore>(lion);
+        }
+
+        // Test inheritance
+        [Fact]
+        public void LionInheritsFromMammal()
+        {
+            // Arrange - Act
+            Lion lion = new Lion("Simba", 15, "Meat", "Zoo");
+
+            // Assert
+            Assert.IsAssignableFrom<Mammal>(lion);
+        }
+
+        // Test Polymorphism
+        [Fact]
+        public void AnimalListCanContainDifferentAnimals()
+        {
+            // Arrange
+            Animal[] animals = new Animal[]
+            {
+                new Lion("Simba", 15, "Meat", "Zoo"),
+                new Penguin("Pingu", 10, "Fish", "Polar")
+            };
+
+            // Act - Assert
+            Assert.Equal(2, animals.Length);
+            Assert.IsType<Lion>(animals[0]);
+            Assert.IsType<Penguin>(animals[1]);
+        }
+
+        // Prove methods have been overridden
+        [Fact]
+        public void LionEatsMeat()
+        {
+            // Arrange
+            Lion lion = new Lion("Simba", 15, "Meat", "Zoo");
+
+            // Act
+            string result = lion.Eat();
+
+            // Assert
+            Assert.Equal("Lions eat meat", result);
+        }
+
+        // Prove that one of your concrete animals is an Animal
+        [Fact]
+        public void LionIsAnAnimal()
+        {
+            // Arrange - Act
+            Lion lion = new Lion("Simba", 15, "Meat", "Zoo");
+
+            // Assert
+            Assert.IsAssignableFrom<Animal>(lion);
+        }
     }
 }

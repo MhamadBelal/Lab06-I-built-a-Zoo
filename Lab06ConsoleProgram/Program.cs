@@ -1,5 +1,20 @@
 ﻿namespace Lab06ConsoleProgram
 {
+
+    // Define the first interface
+    //<Interface>
+    public interface IHerbivore
+    {
+        string EatPlant();
+    }
+
+    // Define the second interface
+    //<Interface>
+    public interface ICarnivore
+    {
+        string EatMeat();
+    }
+
     public abstract class Animal       //public access modifier     //base class  //bastract class
     {
 
@@ -44,7 +59,7 @@
         public virtual void GiveBirth()        //Virtual method
         {
             Console.WriteLine($"Mammal animals gives birth to live cubs.");
-        }       
+        }
     }
 
     // Reptile class inheriting from Animal
@@ -75,7 +90,7 @@
     // Concrete classes implementing specific animals
 
     // Lion class inheriting from Mammal
-    public class Lion : Mammal      //public access modifier
+    public class Lion : Mammal, IHerbivore, ICarnivore      //public access modifier
     {
         public Lion(string name, int age, string food, string habitat) : base(name, age, food, habitat)
         {
@@ -99,6 +114,16 @@
         public override void GiveBirth()     //override method
         {
             Console.WriteLine($"{Name} the Lion gives birth to live cubs.");
+        }
+
+        public string EatMeat()
+        {
+            return $"{Name} the Lion is eating meat.";
+        }
+
+        public string EatPlant()
+        {
+            return $"{Name} the Lion is eating plants.";
         }
     }
 
@@ -236,7 +261,7 @@
     }
 
     // Penguin class inheriting from Bird
-    public class Penguin : Bird            //public access modifier
+    public class Penguin : Bird,IHerbivore           //public access modifier
     {
         public Penguin(string name,int age, string food, string habitat) : base(name, age, food, habitat)
         {
@@ -260,6 +285,11 @@
         {
             Console.WriteLine($"{Name} the Penguin cannot fly.");
         }
+
+        public string EatPlant()
+        {
+            return $"{Name} the Penguin is eating plants.";
+        }
     }
     public class Program
     {
@@ -277,6 +307,8 @@
             Console.WriteLine(lion.Eat());
             Console.WriteLine(lion.Sleep());
             Console.WriteLine(lion.Sound());
+            Console.WriteLine(lion.EatPlant());
+            Console.WriteLine(lion.EatMeat());
             lion.GiveBirth();
 
             Console.WriteLine();
@@ -311,7 +343,8 @@
 
             Console.WriteLine(penguin.Eat()); 
             Console.WriteLine(penguin.Sleep()); 
-            Console.WriteLine(penguin.Sound()); 
+            Console.WriteLine(penguin.Sound());
+            Console.WriteLine(penguin.EatPlant());
             penguin.Fly();
 
             Console.ReadKey();
