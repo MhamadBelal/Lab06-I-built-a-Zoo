@@ -14,6 +14,10 @@ It demonstrates the use of inheritance, polymorphism, abstraction, and encapsula
 ![UMl01](./Assets/UML01.PNG)
 ![UMl02](./Assets/UML02.PNG)
 
+Update UML and implement interfaces:
+
+![UML03](./Assets/AddingInterfaces.PNG)
+
 ---
 
 ## OOP Principles
@@ -37,3 +41,22 @@ Encapsulation is a principle that combines data and methods into a single unit c
 * Polymorphism: The Mammal class defines a virtual method GiveBirth(), which is overridden in the Lion class to provide a specific behavior for lions.
 * Abstraction: The Animal class is an abstract class that defines abstract methods such as Eat(). These methods provide a common interface for all animals in the zoo, but their implementation is left to the derived classes such as Lion and Snake.
 * Encapsulation: Each animal class encapsulates its specific attributes and behaviors. For example, the Lion class has private fields for name and age, and public methods like SetAge() and GetName() to access and manipulate
+
+---
+
+## Interfaces
+An interface is a programming construct that defines a contract for classes to follow. It specifies a set of methods and properties that a class implementing the interface must provide. Interfaces enable code reuse and allow objects of different classes to be treated uniformly based on shared behavior.
+
+### ICarnivore
+The ICarnivore interface defines the behavior of a carnivorous animal that eats meat. It includes a single method Eat().
+
+Implemented by:
+
+Lion class: Lions are carnivores, so they implement the ICarnivore interface to provide the specific implementation of the Eat() method.
+
+### IHerbivore
+The IHerbivore interface defines the behavior of a herbivorous animal that eats plants. It also includes a single method Eat().
+
+Implemented by:
+
+Penguin class: Penguins are herbivores, so they implement the IHerbivore interface to provide the specific implementation of the Eat() method.
